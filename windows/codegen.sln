@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegen", "codegen.vcxproj", "{9B5D2654-C9B8-4DBC-BD77-4466EB5DF9CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegen-lib", "codegen-lib.vcxproj", "{471BBAFB-0AE7-4078-B490-1DF9092DE2C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{9B5D2654-C9B8-4DBC-BD77-4466EB5DF9CC}.Debug|Win32.Build.0 = Debug|Win32
 		{9B5D2654-C9B8-4DBC-BD77-4466EB5DF9CC}.Release|Win32.ActiveCfg = Release|Win32
 		{9B5D2654-C9B8-4DBC-BD77-4466EB5DF9CC}.Release|Win32.Build.0 = Release|Win32
+		{471BBAFB-0AE7-4078-B490-1DF9092DE2C5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{471BBAFB-0AE7-4078-B490-1DF9092DE2C5}.Debug|Win32.Build.0 = Debug|Win32
+		{471BBAFB-0AE7-4078-B490-1DF9092DE2C5}.Release|Win32.ActiveCfg = Release|Win32
+		{471BBAFB-0AE7-4078-B490-1DF9092DE2C5}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

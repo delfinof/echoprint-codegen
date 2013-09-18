@@ -1,3 +1,6 @@
 *.o
 *.dylib
 *.so
+
+windows/Debug/
+windows/Release/
