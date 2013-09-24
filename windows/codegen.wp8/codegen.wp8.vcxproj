@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{4469d6ef-ea95-4c46-a5cd-ed2eb5648056}</ProjectGuid>
-    <RootNamespace>codegen_wp8</RootNamespace>
+    <RootNamespace>codegen.wp8</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
     <WinMDAssembly>true</WinMDAssembly>

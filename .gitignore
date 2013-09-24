@@ -12,3 +12,8 @@ windows/codegen.wp8/Debug/
 windows/codegent.w81/Debug/
 windows/test.codegen.wp8/Bin/
 windows/test.codegen.wp8/obj/
+*.opensdf
+windows/codegen.wp8/Release/
+windows/codegent.w81/ARM/
+windows/codegent.w81/Release/
+windows/codegent.w81/
