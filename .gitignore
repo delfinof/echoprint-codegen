@@ -7,3 +7,8 @@ windows/Release/
 windows/ARM/
 windows/ipch/
 windows/x64/
+windows/codegen.wp8/ARM/
+windows/codegen.wp8/Debug/
+windows/codegent.w81/Debug/
+windows/test.codegen.wp8/Bin/
+windows/test.codegen.wp8/obj/
