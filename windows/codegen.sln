@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegen-lib", "codegen-lib.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegen-lib-w81", "codegen-lib-w81.vcxproj", "{05493381-1D99-4E7A-BF47-23B6E90DC7B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegen-lib-wp8", "codegen-lib-wp8.vcxproj", "{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -47,6 +49,16 @@ Global
 		{05493381-1D99-4E7A-BF47-23B6E90DC7B3}.Release|Win32.Build.0 = Release|Win32
 		{05493381-1D99-4E7A-BF47-23B6E90DC7B3}.Release|x64.ActiveCfg = Release|x64
 		{05493381-1D99-4E7A-BF47-23B6E90DC7B3}.Release|x64.Build.0 = Release|x64
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Debug|ARM.Build.0 = Debug|ARM
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Debug|Win32.Build.0 = Debug|Win32
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Debug|x64.ActiveCfg = Debug|Win32
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Release|ARM.ActiveCfg = Release|ARM
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Release|ARM.Build.0 = Release|ARM
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Release|Win32.ActiveCfg = Release|Win32
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Release|Win32.Build.0 = Release|Win32
+		{0079F78B-5FC9-4E53-91FB-8C5DDD83E7C2}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
