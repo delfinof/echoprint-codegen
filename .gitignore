@@ -4,3 +4,6 @@
 
 windows/Debug/
 windows/Release/
+windows/ARM/
+windows/ipch/
+windows/x64/

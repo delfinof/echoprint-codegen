@@ -60,6 +60,9 @@ public:
 protected:
     std::string GetCommandLine(const char* filename) {
         // TODO: Windows
+#ifdef MXM_W81
+		return std::string("");
+#else
         char message[4096] = {0};
         if (_Offset_s == 0 && _Seconds == 0)
             snprintf(message, NELEM(message), "ffmpeg -i \"%s\"  -ac %d -ar %d -f s16le - 2>%s",
@@ -69,6 +72,7 @@ protected:
                     filename, Params::AudioStreamInput::Channels, (uint) Params::AudioStreamInput::SamplingRate, _Seconds, _Offset_s, DEVNULL);
 
         return std::string(message);
+#endif
     }
 };
 

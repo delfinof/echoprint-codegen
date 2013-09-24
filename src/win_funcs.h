@@ -6,6 +6,14 @@
 #include <winsock.h>
 #include <sys/timeb.h>
 
+
+#if MXM_W81
+typedef struct timeval {
+	long tv_sec;
+	long tv_usec;
+} timeval;
+#endif
+
 #define ROUND_FUNC(type,suff) inline type round##suff(type x) \
 {                                                             \
     if (x >= 0.0##suff){                                      \

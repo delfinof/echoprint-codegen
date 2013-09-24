@@ -12,6 +12,9 @@
 namespace MatrixUtility {
 
 bool TextFileOutput(const matrix_f& A, const char* filename) {
+#ifdef WINAPI_PARTITION_APP
+	return false;
+#else
     FILE *matrix_file = fopen(filename, "w");
     bool success = (matrix_file != NULL);
     if (success) {
@@ -25,9 +28,13 @@ bool TextFileOutput(const matrix_f& A, const char* filename) {
         fclose(matrix_file);
     }
     return success;
+#endif
 }
 
 bool FileOutput(const matrix_f& A, const char* filename) {
+#ifdef WINAPI_PARTITION_APP
+	return false;
+#else
     FILE *matrix_file = fopen(filename, "wb");
     bool success = (matrix_file != NULL);
     if (success) {
@@ -45,6 +52,7 @@ bool FileOutput(const matrix_f& A, const char* filename) {
         fclose(matrix_file);
     }
     return success;
+#endif
 }
 
 

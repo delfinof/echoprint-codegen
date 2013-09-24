@@ -25,8 +25,13 @@ bool WriteStuffToFile(const char* filename)
 */
 class File {
 public:
+#ifdef WINAPI_PARTITION_APP
+	File(const char* filename){ _f = NULL; };
+	~File(){ _f = NULL;}
+#else
     File(const char* filename){_f = fopen(filename, "w");};
     ~File(){fclose(_f); _f = NULL;}
+#endif
     operator bool(){return _f != NULL;}
     operator FILE*(){return _f;}
     static bool Exists(const char* filename){return (access(filename, F_OK) == 0);}

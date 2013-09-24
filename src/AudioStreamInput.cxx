@@ -52,6 +52,9 @@ AudioStreamInput::~AudioStreamInput() {
 
 
 bool AudioStreamInput::ProcessFile(const char* filename, int offset_s/*=0*/, int seconds/*=0*/) {
+#if MXM_W81
+	return false;
+#else
     if (!File::Exists(filename) || !IsSupported(filename))
         return false;
 
@@ -69,12 +72,15 @@ bool AudioStreamInput::ProcessFile(const char* filename, int offset_s/*=0*/, int
     }
     else
         fprintf(stderr, "AudioStreamInput::ProcessFile can't open %s\n", filename);
-
     return ok;
+#endif
 }
 
 // reads raw signed 16-bit shorts from a file
 bool AudioStreamInput::ProcessRawFile(const char* rawFilename) {
+#ifdef MXM_W81
+	return false;
+#else
     FILE* fp = fopen(rawFilename, "r"); // TODO: Windows
     bool ok = (fp != NULL);
     if (ok)
@@ -84,6 +90,7 @@ bool AudioStreamInput::ProcessRawFile(const char* rawFilename) {
     }
 
     return ok;
+#endif
 }
 
 // reads raw signed 16-bit shorts from stdin, for example:
@@ -94,6 +101,9 @@ bool AudioStreamInput::ProcessStandardInput(void) {
 }
 
 bool AudioStreamInput::ProcessFilePointer(FILE* pFile) {
+#ifdef MXM_W81
+	return false;
+#else
     std::vector<short*> vChunks;
     uint nSamplesPerChunk = (uint) Params::AudioStreamInput::SamplingRate * Params::AudioStreamInput::SecondsPerChunk;
     uint samplesRead = 0;
@@ -127,6 +137,7 @@ bool AudioStreamInput::ProcessFilePointer(FILE* pFile) {
     if (!success)
         perror("ProcessFilePointer error");
     return success;
+#endif
 }
 
 
