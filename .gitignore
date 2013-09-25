@@ -19,3 +19,9 @@ windows/codegent.w81/Release/
 windows/codegent.w81/
 windows/test.codege.w81/bin/
 windows/test.codege.w81/obj/
+windows/ReleaseWP8/
+windows/codegen.wp8/DebugWP8/
+windows/codegen.wp8/ReleaseWP8/
+windows/DebugW81/
+windows/DebugWP8/
+windows/ReleaseW81/

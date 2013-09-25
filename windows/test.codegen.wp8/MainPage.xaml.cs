@@ -8,22 +8,51 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using test.codegen.wp8.Resources;
+using Windows.Storage;
+using System.Threading.Tasks;
+using Windows.Storage.Streams;
 
 namespace test.codegen.wp8
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        codegen_wp8.WindowsPhoneRuntimeComponent d = null;
+        codegen_wp8.Class1 c = null;
 
         // Constructor
         public MainPage()
         {
             InitializeComponent();
-
-            d = new codegen_wp8.WindowsPhoneRuntimeComponent();
-
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
+   
+            Load();
+        }
+
+        public async void Load()
+        {
+            StorageFile file = await StorageFile.GetFileFromPathAsync("file-11025.pcm");
+            var bytes = await ReadFile(file);
+
+            c = new codegen_wp8.Class1(bytes, 0);
+            var s = c.getCodeString();
+            System.Diagnostics.Debug.WriteLine(s);
+            System.Diagnostics.Debug.WriteLine(c.getNumCodes() );
+        }
+
+
+        public async Task<byte[]> ReadFile(StorageFile file)
+        {
+           byte[] fileBytes = null;
+           using (IRandomAccessStreamWithContentType stream = await file.OpenReadAsync())
+           {
+                fileBytes = new byte[stream.Size];
+                using (DataReader reader = new DataReader(stream))
+                {
+                    await reader.LoadAsync((uint)stream.Size);
+                    reader.ReadBytes(fileBytes);
+                }
+            }
+            return fileBytes;
         }
 
         // Sample code for building a localized ApplicationBar
