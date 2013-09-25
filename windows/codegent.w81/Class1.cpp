@@ -5,9 +5,25 @@
 using namespace codegent_w81;
 using namespace Platform;
 
-float pippo[1024];
-
-Class1::Class1()
+Class1::Class1(const Platform::Array<byte>^ something, int offset)
 {
-	Codegen a(pippo, 1024, 0);
+	int i = 0;
+	float *buffer = (float *)malloc(something->Length/2 * sizeof(float) );
+	if (buffer != NULL) { 
+		byte *myarray = something->Data;
+		short *myarray_s = (short *) myarray;
+		int len = something->Length;
+		for (i = 0; i < len/2; i++)
+		{
+			buffer[i] = myarray_s[i];
+		}
+
+		a = new Codegen(buffer , len/2,  offset);
+	}
+}
+
+Class1::~Class1()
+{
+	if (a!=NULL)
+		delete a;
 }

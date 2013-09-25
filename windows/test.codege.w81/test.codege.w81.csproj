@@ -121,6 +121,9 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="file-11025.pcm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="test.codege.w81_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
