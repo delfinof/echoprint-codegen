@@ -61,7 +61,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalIncludeDirectories>..\..\zlib;..\taglib;..\taglib\include;..\..\boost;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\zlib-win;..\taglib-win;..\taglib-win\include;..\..\boost-win;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,7 +74,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalIncludeDirectories>..\..\zlib;..\taglib;..\taglib\include;..\..\boost;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\zlib-win;..\taglib-win;..\taglib-win\include;..\..\boost-win;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -87,7 +87,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalIncludeDirectories>..\..\zlib;..\taglib;..\taglib\include;..\..\boost;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\zlib-win;..\taglib-win;..\taglib-win\include;..\..\boost-win;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -100,7 +100,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
       <AdditionalUsingDirectories>%(AdditionalIncludeDirectories);$(ProjectDir);$(WindowsSDK_MetadataPath);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
-      <AdditionalIncludeDirectories>..\..\zlib;..\taglib;..\taglib\include;..\..\boost;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\zlib-win;..\taglib-win;..\taglib-win\include;..\..\boost-win;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

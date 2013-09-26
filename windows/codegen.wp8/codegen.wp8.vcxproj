@@ -70,7 +70,7 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWP8|Win32'">
@@ -86,7 +86,7 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugWP8|ARM'">
@@ -102,7 +102,7 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWP8|ARM'">
@@ -118,7 +118,7 @@
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
       <IgnoreSpecificDefaultLibraries>ole32.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateWindowsMetadata>true</GenerateWindowsMetadata>
-      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
+      <AdditionalDependencies>$(TargetDir)\..\codegen-lib-wp8\codegen-lib-wp8.lib;%(AdditionalDependencies);$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-wp8\zlibstatic-wp8.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -128,7 +128,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -144,7 +144,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -160,7 +160,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -176,7 +176,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -192,7 +192,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
@@ -208,7 +208,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
+      <AdditionalDependencies>runtimeobject.lib;%(AdditionalDependencies);$(TargetDir)\..\codegen-lib-w81\codegen-lib-w81.lib;$(SolutionDir)\..\..\zlib-win\$(IntDir)\zlibstatic-w81\zlibstatic-w81.lib</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
